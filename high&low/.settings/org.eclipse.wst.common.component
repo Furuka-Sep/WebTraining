@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="HighandLow">
+    <wb-module deploy-name="high&amp;low">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="HighandLow"/>
-        <property name="java-output-path" value="/HighandLow/build/classes"/>
+        <property name="java-output-path" value="/high&amp;low/build/classes"/>
+        <property name="context-root" value="high&amp;low"/>
     </wb-module>
 </project-modules>
