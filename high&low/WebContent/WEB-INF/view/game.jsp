@@ -3,7 +3,7 @@
 <%@ page import="model.PlayData" %>
 <%
 PlayData pd=(PlayData)session.getAttribute("pd");
-String[] cards=pd.get
+String[] cards=pd.getCard();
 %>
 <!DOCTYPE html>
 <html>
@@ -13,7 +13,7 @@ String[] cards=pd.get
 </head>
 <body>
 <div id="card">
-<img src="images/"
+<img src="images/<%=pd.getCard()[pd.getCount()] %>.png" >
 </div>
 </body>
 </html>
